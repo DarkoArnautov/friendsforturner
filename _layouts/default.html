@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body>
+    
+    <div class="page-wrap">
+        {% include header.html %}
+        <main>
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="col-sm-8">
+                        {{ content }}
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contribute-box">
+                            <p>Please consider a donation to support our efforts in the 9th District and the Illinois State Legislature.</p>
+                            <input type="text" name="text">
+                            <button>Contribute</button>
+                        </div>
+                        <h4>Upcoming Events</h4>
+                        <p>No events</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    
+    {% include footer.html %}
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/semantic.min.js"></script>
+    <script type="/assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<div class="header-wrapper">
+    <div class="red-bar">
+        <div class="container">
+            <header>
+            <!-- logo and description -->
+                {% if page.layout != "post" %}
+                <div class="head-area">
+                    <h1 class="site-logo">
+                        <a href="/"><img src="/assets/img/turner-logo.png" class="logo"/></a>
+                    </h1>
+                    <h3 class="site-description">{{ site.description }}</h3>
+                </div>
+                {% endif %}
+            </header>
+        </div>
+    </div>
+    <div class="blue-bar">
+        <div class="container">
+            <nav class="site-nav">
+                <div class="left-nav">
+                    <!-- add titles to all buttons -->
+                    <div class="ui secondary menu inverted">
+                        <a class="item" href="/">
+                            Home
+                        </a>
+                        <a class="item" href="/leadership">
+                            Legislative Leadership
+                        </a>
+                        <a class="item" href="/biography">
+                            Biography
+                        </a>
+                        <a class="item" href="/volunteer">
+                            Volunteer
+                        </a>
+                        <a class="item" href="/information">
+                            Information / Links
+                        </a>
+                    </div>
+                </div>
+                <div class="right-nav"></div>
+            </nav>
+        </div>
+    </div>
+</div>
