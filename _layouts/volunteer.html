@@ -6,27 +6,79 @@ layout: default
 	<h4>Become a part of our campaign! Your time and energy is valuable and needed.</h4>
 	<p>Please take a moment to fill out the form. We will get in touch with you in the next 72 hours. If you simply wish to be added to our mailing list, use the link to the right.</p>	
 	<form accept-charset="UTF-8" action="https://formkeep.com/f/XXXXXXXXXXXX" method="POST">
-		<div>
+		<div class="volunteer">
 			<label>Name</label><br>
 			<input type="text" name="name" placeholder="Your Name">
 		</div>
-		<div>
+		<br>
+		<div class="volunteer">
 			<label>Email</label><br>
 			<input type="email" name="email" placeholder="Your Email">	
 		</div>
-		<div>
+		<br>
+		<div class="volunteer">
 			<label>Address</label><br>
 			<input type="text" name="address" placeholder="Address">	
 		</div>
-		<div>
-			<label>City</label><br>
-			<input type="text" name="city" placeholder="City">	
-		</div>
-		<div>
+		<br>
+		<div class="volunteer">
+			<div class="city"><label>City</label><br>
+			<input type="text" name="city" placeholder="City"></div>
+			<div class="state"><label>State</label><br>
+			<input type="text" name="state" placeholder="State"></div>
+			<div class="zip"><label>Zip</label><br>
+			<input type="text" name="zip" placeholder="Zip"></div>	
+		</div class="volunteer">
+		<br>
+		<div class="volunteer">
 			<label>Phone</label><br>
 			<input type="phone" name="phone" placeholder="Phone">	
 		</div>
+		<br>
+		<div class="volunteer">
+			<label>How would your like to volunteer?</label><br>
+			<input type="checkbox" name="volunteer" value="Make phone calls for Art"> Make phone calls for Art<br>
+			<input type="checkbox" name="volunteer" value="Host a campaign coffee/fundraiser"> Host a campaign coffee/fundraiser<br>
+			<input type="checkbox" name="volunteer" value="Distribute literature door-to-door"> Distribute literature door-to-door<br>
+			<input type="checkbox" name="volunteer" value="Attend a rally or other event"> Attend a rally or other event<br>
+			<input type="checkbox" name="volunteer" value="Work at a polling place"> Work at a polling place<br>
+			<input type="checkbox" name="volunteer" value="Something else"> Something else<br>
+		</div>
+		<br>
+		<div class="volunteer">
+			<label>How many hours per week would you be able to dedicate?</label><br>
+			<input type="radio" name="radio-hours" value="3 hours of less"> 3 hours of less<br>
+			<input type="radio" name="radio-hours" value="3 to 5 hours"> 3 to 5 hours<br>
+			<input type="radio" name="radio-hours" value="5 to 10 hours"> 5 to 10 hours<br>
+			<input type="radio" name="radio-hours" value="10 to 20 hours"> 10 to 20 hours<br>
+			<input type="radio" name="radio-hours" value="20 or more hours"> 20 or more hours<br>
+		</div>
+		<br>
+		<div class="volunteer">
+			<label>What days of the week are you available?</label><br>
+			<input type="checkbox" name="week-day" value="Monday"> Monday<br>
+			<input type="checkbox" name="week-day" value="Tuesday"> Tuesday<br>
+			<input type="checkbox" name="week-day" value="Wednesday"> Wednesday<br>
+			<input type="checkbox" name="week-day" value="Thursday"> Thursday<br>
+			<input type="checkbox" name="week-day" value="Friday"> Friday<br>
+			<input type="checkbox" name="week-day" value="Saturday"> Saturday<br>
+			<input type="checkbox" name="week-day" value="Sunday"> Sunday<br>
+		</div>
+		<br>
+		<div class="volunteer">
+			<label>How you would you like to be contacted?</label><br>
+			<input type="radio" name="contact-by" value="Email"> Email<br>
+			<input type="radio" name="contact-by" value="Phone"> Phone<br>
+		</div>
+		<br>
+		<div class="volunteer">
+			<label>Comments</label><br>
+			<textarea rows="10"></textarea>
+		</div >
+		<br>
 		<input type="hidden" name="utf8" value="✓">
-		<button type="submit">Submit</button>
+		<div class="volunteer">
+			<button type="submit">Submit</button>
+		</div>
 	</form>
 </div>

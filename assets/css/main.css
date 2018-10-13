@@ -260,3 +260,78 @@ a:hover {
 .post-container {
     font-family: "Open Sans", sans-serif;
 }
+
+
+/*volunteer*/
+
+.volunteer input[type=text]{
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+    padding: 6px 10px;
+    background: #FFF;
+    background: -webkit-gradient(linear, left top, left 10, from(#EEE), to(#FFF));
+    background: -moz-linear-gradient(top, #EEE, #FFF, 10px);
+    border: 1px solid #CCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+}
+
+.volunteer input[type=email]{
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+    padding: 6px 10px;
+    background: #FFF;
+    background: -webkit-gradient(linear, left top, left 10, from(#EEE), to(#FFF));
+    background: -moz-linear-gradient(top, #EEE, #FFF, 10px);
+    border: 1px solid #CCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+}
+
+.volunteer input[type=phone]{
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+    padding: 6px 10px;
+    background: #FFF;
+    background: -webkit-gradient(linear, left top, left 10, from(#EEE), to(#FFF));
+    background: -moz-linear-gradient(top, #EEE, #FFF, 10px);
+    border: 1px solid #CCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+}
+
+.volunteer .city {
+    width: 60%;
+    display: inline-block;
+}
+
+.volunteer .state {
+    width: 19%;
+    display: inline-block;
+}
+
+
+.volunteer .zip {
+    width: 19%;
+    display: inline-block;
+}
+
+.volunteer textarea {
+    width: 100%;
+    margin: 0px 10px 0px 0px;
+    padding: 6px 10px;
+    background: #FFF;
+    background: -webkit-gradient(linear, left top, left 10, from(#EEE), to(#FFF));
+    background: -moz-linear-gradient(top, #EEE, #FFF, 10px);
+    border: 1px solid #CCC;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+}
