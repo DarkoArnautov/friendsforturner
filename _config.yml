@@ -8,3 +8,4 @@ paginate: 15
 baseurl: https://darkoarnautov.github.io/friendsforturner/
 plugins: [jekyll-gist]
 permalink: /:year/:month/:title.html
+email: friends@friendsforturner.com
