@@ -36,7 +36,7 @@ img, video, iframe {
 header {
     max-width: 100%;
     margin: 0 auto;
-    background: url(/assets/img/bg.jpg) top left no-repeat;
+    background: url(../img/bg.jpg) top left no-repeat;
     color: rgba(255, 255, 255, .75);
     height: 294px;
 }
@@ -44,7 +44,7 @@ header {
 .red-bar {
     height: 294px;
     margin: 0px 0px 12px 0px;
-    background: url(/assets/img/header-bg.gif) top left repeat-x;
+    background: url(../img/header-bg.gif) top left repeat-x;
 }
 
 .blue-bar {
@@ -118,7 +118,7 @@ header {
 /* footer */
 
 footer {
-    background: url(/assets/img/footer-bg.gif) top left repeat-x;
+    background: url(../img/footer-bg.gif) top left repeat-x;
     height: 290px;
 }
 

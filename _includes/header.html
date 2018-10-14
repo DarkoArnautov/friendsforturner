@@ -6,7 +6,7 @@
                 {% if page.layout != "post" %}
                 <div class="head-area">
                     <h1 class="site-logo">
-                        <a href="/"><img src="/assets/img/turner-logo.png" class="logo"/></a>
+                        <a href="/"><img src="./assets/img/turner-logo.png" class="logo"/></a>
                     </h1>
                     <h3 class="site-description">{{ site.description }}</h3>
                 </div>
@@ -20,19 +20,19 @@
                 <div class="left-nav">
                     <!-- add titles to all buttons -->
                     <div class="ui secondary menu inverted">
-                        <a class="item" href="/">
+                        <a class="item" href="{{site.baseurl}}">
                             Home
                         </a>
-                        <a class="item" href="/leadership">
+                        <a class="item" href="{{site.baseurl}}leadership">
                             Legislative Leadership
                         </a>
-                        <a class="item" href="/biography">
+                        <a class="item" href="{{site.baseurl}}biography">
                             Biography
                         </a>
-                        <a class="item" href="/volunteer">
+                        <a class="item" href="{{site.baseurl}}volunteer">
                             Volunteer
                         </a>
-                        <a class="item" href="/information">
+                        <a class="item" href="{{site.baseurl}}information">
                             Information / Links
                         </a>
                     </div>
