@@ -1,23 +1,134 @@
----
-layout: page
-title: Archive
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-{% for post in site.posts %}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Friendsforturner</title>
+    <link rel="stylesheet" href="./assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="./assets/css/vendor/semantic.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
 
-    <div class="ui middle aligned selection list">
-        <div class="item">
-            <a class="header" href="{{ BASE_PATH }}{{ post.url }}">
-                {{ post.title | strip_html | truncatewords: 15 }}
-                <small class="small-date">
-                    {{ post.date | date_to_string }}
-                    {% if post.category %} 
-                        in <i>{{ post.category }}</i>
-                    {% endif %} 
-                </small>
-            </a>
-            {{ post.content | strip_html | truncatewords: 30 }}
+    <link rel="shortcut icon" type="image/png" href="./assets/img/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="page-wrap">
+        <div class="header-wrapper">
+    <div class="red-bar">
+        <div class="container">
+            <header>
+            <!-- logo and description -->
+                
+                <div class="head-area">
+                    <h1 class="site-logo">
+                        <a href="/"><img src="./assets/img/turner-logo.png" class="logo"/></a>
+                    </h1>
+                    <h3 class="site-description">Your State Representative from Illinois' 9th Legislative District</h3>
+                </div>
+                
+            </header>
         </div>
     </div>
+    <div class="blue-bar">
+        <div class="container">
+            <nav class="site-nav">
+                <div class="left-nav">
+                    <!-- add titles to all buttons -->
+                    <div class="ui secondary menu inverted">
+                        <a class="item" href="/">
+                            Home
+                        </a>
+                        <a class="item" href="/leadership">
+                            Legislative Leadership
+                        </a>
+                        <a class="item" href="/biography">
+                            Biography
+                        </a>
+                        <a class="item" href="/volunteer">
+                            Volunteer
+                        </a>
+                        <a class="item" href="/information">
+                            Information / Links
+                        </a>
+                    </div>
+                </div>
+                <div class="right-nav"></div>
+            </nav>
+        </div>
+    </div>
+</div>
+        <main>
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="col-sm-8">
+                        <div class="post-container">
+    <center>
+        <h1 class="post-title">Archive</h1>
+    </center>
+    <div class="ui divider"></div>
+    
+    <br/>
+</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="contribute-box">
+                            <p>Please consider a donation to support our efforts in the 9th District and the Illinois State Legislature.</p>
+                            <input type="text" name="text">
+                            <button>Contribute</button>
+                        </div>
+                        <h4>Upcoming Events</h4>
+                        <p>No events</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    
+    <footer>
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="col-sm-12">
+                <div class="col-sm-3">
+                    <h4>Contributions are not tax deductible.</h4>
+                    <p>A copy of the current report is or will be available at the Illinois State Board of Elections, Springfield, Illinois 62704.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Authorized by:</h4>
+                    <p>Friends for Arthur Turner II
+                        3849 W. Ogden Ave. Suite B
+                        Chicago, IL 60623<br>
+                        Phone: 773.277.4702<br>
+                        Fax: 773.227.4703<br>
+                        <a href="">friends@friendsforturner.com</a>
+                    </p>
 
-{% endfor %}
+                </div>
+                <div class="col-sm-3">
+                    <h4>Facebook</h4>
+                </div>
+                <div class="col-sm-3">
+                    
+                </div>
+            </div>
+            <div class="col-sm-12 credit" >
+                <p >Website by <a href="http://zis.es" target="_blank">Zises Strategic Communications</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="./assets/js/main.js"></script>
+<script type="text/javascript" src="./assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js/vendor/semantic.min.js"></script>
+
+    <script src="./assets/js/vendor/jquery.min.js"></script>
+    <script src="./assets/js/vendor/semantic.min.js"></script>
+    <script type="./assets/js/main.js"></script>
+</body>
+
+</html>
