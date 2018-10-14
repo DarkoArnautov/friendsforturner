@@ -3,10 +3,10 @@
   <channel>
     <title>Friendsforturner</title>
     <description>Your State Representative from Illinois' 9th Legislative District</description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Oct 2018 09:41:31 +0300</pubDate>
-    <lastBuildDate>Sun, 14 Oct 2018 09:41:31 +0300</lastBuildDate>
+    <link>https://darkoarnautov.github.io/friendsforturner//</link>
+    <atom:link href="https://darkoarnautov.github.io/friendsforturner//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Oct 2018 09:51:31 +0300</pubDate>
+    <lastBuildDate>Sun, 14 Oct 2018 09:51:31 +0300</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
   </channel>
